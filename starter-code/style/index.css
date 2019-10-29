@@ -13,3 +13,57 @@
 .card:hover .card-img-top {
   transform: scale(1.05);
 }
+
+html,
+body{
+  margin: 30px;
+}
+
+.nav-item {
+  padding: 0 20px;
+  font-size: 20px;
+}
+
+/* SECTION HERO STYLING */
+.section-hero {
+  padding: 30px 30px;
+}
+
+.section-hero > h1 {
+  margin: 100px 0;
+}
+
+.hero-text-area {
+  font-size: 20px;
+}
+
+.top-pictures {
+  width: 10rem;
+  border-style: none;
+  margin-bottom: 50px;
+}
+
+li {
+  list-style: none;
+}
+
+.services-text-title{
+  font-size: 25px;
+}
+
+.services-text-paragraph {
+  font-size: 18px;
+}
+
+.container-services-menu{
+  margin-top: 50px;
+}
+
+.add-space-services-menu {
+  padding-bottom: 20px;
+}
+
+.background-dark {
+  padding: 200px 30px;
+  margin: 100px;
+}

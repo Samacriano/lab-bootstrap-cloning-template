@@ -2,57 +2,156 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/bootstrap.min.css.map">
+    <link rel="stylesheet" href="style/index.css">
     <title>Significa</title>
   </head>
   <body>
-    Showcase
-    Services
-    About
-    Careers
-    Labs
-    Contact
-    Your go-to digital agency
-    Significa is a digital design-led agency mainly focused on Product Development.
-    Oopsie for users — Your favourite food, one click away!
-    Business Analysis, Product Management, Consultancy & 5 others
-    Opennode — Bitcoin, for everyday.
-    UI/UX, Front End, Front End
-    AKASHA — Open systems to expand our collective mind.
-    UI/UX, Front End, Illustration
-    We build digital products
-    Having a design-led approach to what we do defines who we are. We take on products from inception to launch, from business model to people's pocket, from wireframe to continuous deployment.
-    Strategy
-    UX research
-    Business strategy
-    Brand strategy
-    Product strategy
-    Product management
-    Product design
-    Product design
-    User experience
-    User interface
-    Brand development
-    Illustration
-    Motion & Video
-    Development
-    Development
-    Front-end engineering
-    Web-app development
-    Native app development
-    Development operations
-    View services
-    View services
-    What's new on Significa Labs
-    Automating releases for UI Kits — How to automate release logs and builds for your style guides
-    Tutorial on Medium
-    An iceberg sank the Titanic — But what’s that got to do with text hierarchy?
-    Article on Medium
-    On creating synergies — Sharing without compromising our identity
-    Article on Medium
-    Enter the Lab
-    Drop by, we're hiring.
-    We are an open-minded, open-hearted team that loves the thrill of creating exciting new projects. Drop us a line if you’re passionate and talented to do everything you set your mind to.
-    View careers
+    <header>
+      <div class="d-flex justify-content-between">
+        <img src="images/logo.svg" alt="" class='logo'>
+        <nav>
+         <ul class="nav">
+           <li class="nav-item">Showcase</li>
+           <li class="nav-item">Services</li>
+           <li class="nav-item">About</li>
+           <li class="nav-item">Careers</li>
+           <li class="nav-item">Labs</li>
+           <li class="nav-item">Contact</li>
+         </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="container col section-hero">
+      <h1>Your go-to <br> digital agency</h1>
+      <p class="hero-area-text">Significa is a digital design-led agency mainly <br> focused on Product Development.</p>
+    </section>
+
+    <section class="row">
+    <div class="card col-4 top-pictures">
+        <img src="images/2.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Oopsie for users — Your favourite food, one click away!</p>
+          <span>Business Analysis, Product Management, Consultancy & 5 others</span>
+        </div>
+      </div>
+
+      <div class="card col-4 top-pictures">
+          <img src="images/1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Opennode — Bitcoin, for everyday.</p>
+            <span>UI/UX, Front End, Front End</span>
+            
+          </div>
+        </div>
+
+        <div class="card col-4 top-pictures">
+            <img src="images/3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text"> AKASHA — Open systems to expand our collective mind.</p>
+              <span>UI/UX, Front End, Illustration</span>
+            </div>
+          </div>
+    </section>
+
+    <section class="services">
+      <div class="row">
+        <div class="col-4 services-text-title"><p>We build digital <br> products</p></div>
+        <div class="col-8 services-text-paragraph"><p>Having a design-led approach to what we do defines who we are. We take on products from inception to launch, from business model to people's pocket, <br> from wireframe to continuous deployment.</p></div>
+      </div>
+
+      <div class="container-services-menu">
+      <div class="row ">
+        <div class="col-3"></div>
+        <div class="col-3 ">
+          <ul>
+            <li class="add-space-services-menu">Strategy</li>
+            <li>UX research</li>
+            <li>Business strategy</li>
+            <li>Brand strategy</li>
+            <li>Product strategy</li>
+            <li>Product management</li>
+          </ul>
+        </div>
+
+        <div class="col-3">
+            <ul>
+              <li class="add-space-services-menu">Product design</li>
+              <li>User experience</li>
+              <li> User interface</li>
+              <li>Brand development</li>
+              <li>Illustration</li>
+              <li>Motion&Video</li>
+            </ul>
+          </div>
+
+          <div class="col-3">
+              <ul>
+                <li class="add-space-services-menu">Development</li>
+                <li>Front-end engineering</li>
+                <li>Business strategy</li>
+                <li>Web-app development</li>
+                <li>Native app development</li>
+                <li>Development operations</li>
+              </ul>
+            </div>
+          </div>
+            <div class=" services-view-link d-flex justify-content-center"><span><a href="#"><em>View services</em></a></span></div>
+      </div>
+    </section>
+    
+    <section class=" background-dark bg-dark text-white">
+      <div class="row">
+        <div>
+          <p> What's new on Significa Labs</p>
+        </div>
+        <div class="col">
+          <article>
+            <p>Automating releases for UI Kits — How to automate release logs and builds for your style guides</p>
+            <span>Tutorial on Medium</span>
+          </article>
+          <article>
+            <p>An iceberg sank the Titanic — But what’s that got to do with text hierarchy?</p>
+            <span>Article on Medium</span>
+          </article>
+          <article>
+            <p>On creating synergies — Sharing without compromising our identity</p>
+            <span>Article on Medium</span>
+          </article>
+
+          <div>
+            <span><a href="#"><em>Enter the Lab</em></a></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="row">
+      <div>
+        <p> Drop by, we're hiring. </p>
+      </div>
+      <div class="col">
+        <p>We are an open-minded, open-hearted team that loves the thrill of creating exciting new projects. Drop us a line if you’re passionate and talented to do everything you set your mind to.</p>
+        <span><a href="#"><em>View careers</em></a></span>
+      </div>
+    </section>
+
+    <section class="row">
+      <img src="images/4.png" alt="">
+      <img src="images/5.png" alt="">
+      <img src="images/6.png" alt="">
+    </section>
+
+    <footer class="row">
+
+    </footer>
+    
+   
+
+   
+   
+    
     Legal © 2019
     Say
     hello@significa.co
@@ -69,5 +168,11 @@
     Coletiv
     Adamant
     Follow us
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="scripts/bootstrap.bundle.js.map"></script>
+    <script src="scripts/script.js"></script>
   </body>
 </html>
