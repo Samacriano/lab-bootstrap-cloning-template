@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Jomolhari&display=swap');
+
+html,
+body{
+  font-family: 'Jomolhari', serif;
+}
+
 .card-body {
   transition: opacity 0.25s ease-in-out;
 }
@@ -21,7 +28,7 @@ body{
 
 .nav-item {
   padding: 0 20px;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 /* SECTION HERO STYLING */
@@ -34,7 +41,7 @@ body{
 }
 
 .hero-text-area {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .top-pictures {
@@ -65,5 +72,36 @@ li {
 
 .background-dark {
   padding: 200px 30px;
-  margin: 100px;
+  margin: 100px 0;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+}
+
+.dark-background-area-title{
+  font-size: 20px;
+  padding-right: 150px;
+}
+
+.dark-bk-articles {
+  border-bottom: 1px solid grey;
+  padding: 20px 20px;
+  width: 600px;
+}
+
+.link-dark-background-area{
+  padding-top: 30px;
+  color: grey;
+}
+
+.section-careers-title{
+  font-size: 20px;
+}
+
+.section-careers-text{
+  font-size: 14px;
+}
+
+.row-of-pictures {
+  margin: 100px 0;
 }
